@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dog Lover </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="asdqwd.js"></script> -->
+
+
+    <!-- <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
+
+
+
+</head>
+
+<body>
+    <!-- headerrrr -->
+
+    <header>
+        <img src="img_icon/dogpaw1.png" width="50" height="50">
+        <a href="#" class="logo"> DOG LOVER </a>
+        <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
+
+        <ul class="navbar">
+            <li><a href="#home"> HOME </a></li>
+            <li><a href="#dogsneeds"> DOG'S NEEDS </a></li>
+            <li><a href="#top5populardog"> TOP 5 DOGS </a></li>
+            <li><a href="#contactus"> CONTACT US </a></li>
+        </ul>
+        
+        <div class="toggle"></div>
+
+        <div class="main">
+            <!-- <span id="tooltipText">Day/Night Mode</span> -->
+            <img src="img_icon/night_48px.png" id="icon_night">
+            <img src="img_icon/icon_day.png" width="40" height="40" class="bx bx-menu" id="menu-icon">
+        </div>
+
+
+    </header>
+
+
+    <!-- home text animation -->
+    <section class="home" id="home">
+        <!-- <img src="imgbg/bg3.jpg" id="head"> -->
+
+
+
+        <div class="container1">
+            <span class="text first-text">Dogs are </span>
+            <span class="text sec-text">Family</span>
+            <p> A dog's affection is boundless. They give love without reservation, and they are always eager to cuddle and be close to their human companions. They make great listeners, and they never judge or criticize. They offer unconditional love, and they are always there to provide comfort and support.</p>
+        </div>
+
+        
+
+
+        <!-- <div class="wrapper">
+            <h1>Dogs are </h1>
+            <div class="words">
+                <span> Family </span>
+                <span> Interesting </span>
+                <span> Friends </span>
+                <span> Incredible</span> 
+               <span> Fantastic</span> 
+            </div>
+        </div> -->
+
+        <!-- rotating-text-animation -->
+
+        <!-- <div class="rotating-text">
+            <p>Dogs Are</p>
+            <p>
+                <span class="word w-1"> Family</span>
+                <span class="word w-2"> Interesting</span>
+                <span class="word w-3"> Friends</span>
+                <span class="word w-4"> Incredible</span>
+                <span class="word w-5"> Fantastic</span>
+            </p>
+
+        </div> -->
+
+    </section>
+
+
+
+
+
+
+
+    <!-- home section -->
+    <!-- <section class="home" id="home">
+        <div class="home-text">
+            <h1> A Man's <span>Bestfriend</span></h1>
+            <p> "Dogs are not our whole life, but they make our lives whole."  <br> - Bettina Eddie </p>
+        </div>
+    </section> -->
+
+    <!-- CONTAINER -->
+    <section class="container">
+        <div class="text">
+            <h2> "Dogs Characteristics" </h2>
+        </div>
+
+        <div class="row-items">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="img/dogFIRST.jpg">
+                </div>
+                <h4> Loyalty And Companionship</h4>
+                <p> This is a beautiful and intelligent small breed. </p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="img/dogSECOND.jpg">
+                </div>
+                <h4> Playfulness </h4>
+                <p> Dogs are playful animals that enjoy interacting with their owners and playing games. </p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="img/dogTHIRD.jpg">
+                </div>
+                <h4> Affectionate </h4>
+                <p> Dogs are known for their affectionate nature and enjoy cuddling and being close to their owners.
+                </p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="img/dogFOURT.jpg">
+                </div>
+                <h4> Curious </h4>
+                <p> Many dogs are naturally curious and enjoy exploring their environment and discovering new things.
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--image slider  -->
+    <!-- <section> -->
+    <div class="slider">
+        <div class="slider-track">
+            <div class="slide"><img src="imgdog/labrador1.jpg"></div>
+            <div class="slide"><img src="imgdog/labrador2.jpg"></div>
+            <div class="slide"><img src="imgdog/labrador3.jpg"></div>
+            <div class="slide"><img src="imgdog/french1.jpg"></div>
+            <div class="slide"><img src="imgdog/french2.jpg"></div>
+            <div class="slide"><img src="imgdog/french3.jpg"></div>
+            <div class="slide"><img src="imgdog/german1.jpg"></div>
+            <div class="slide"><img src="imgdog/german2.jpg"></div>
+            <div class="slide"><img src="imgdog/german3.jpg"></div>
+            <div class="slide"><img src="imgdog/golden1.jpg"></div>
+            <div class="slide"><img src="imgdog/golden2.jpg"></div>
+            <div class="slide"><img src="imgdog/golden3.jpg"></div>
+            <div class="slide"><img src="imgdog/bull1.jpg"></div>
+            <div class="slide"><img src="imgdog/bull2.jpg"></div>
+            <div class="slide"><img src="imgdog/bull3.jpg"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- </section> -->
+
+
+
+    <!-- DOgs Needs SECTION -->
+    <section class="dogsneeds" id="dogsneeds">
+        <div class="title">
+            <h2> DOG'S NEEDS </h2>
+        </div>
+        <div class="package-content">
+            <div class="box">
+                <div class="thum">
+                    <img src="img/eating1.jpg ">
+                    <h3> Food & Water </h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4> Dogs need food to provide energy for their bodies. </h4>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="thum">
+                    <img src="img/shelter2.jpg">
+                    <h3> Shelter </h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4> A shelter can provide a safe and secure place for a dog to rest.</h4>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="thum">
+                    <img src="img/attention3.jpg">
+                    <h3>Attention</h3>
+                </div>
+
+                <div class="dest-content">
+                    <div class="location">
+                        <h4> Dogs form strong bonds with their owners. </h4>
+                        <p> </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Top 5 Popular SECTION -->
+
+    <section class="top5populardog" id="top5populardog">
+        <div class="title">
+            <h2> TOP 5 POPULAR DOGS </h2>
+        </div>
+        <div class="destination-content">
+            <div class="col-content">
+                <h1> LABRADOR RETRIEVER </h1>
+                <p>This breed has been the most popular in the U.S. for several years. Labs are known for their friendly
+                    and outgoing personalities, and they make great family pets, as well as working dogs in fields like
+                    hunting and search and rescue.</p>
+                <img src="img/labrador1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="col-content">
+            <h1> FRENCH BULLDOG </h1>
+            <p>This breed has skyrocketed in popularity in recent years, thanks to their adorable wrinkled faces,
+                playful personalities, and adaptability to small living spaces.</p>
+            <img src="img/frenchbulldog2.jpg" alt="">
+        </div>
+        </div>
+
+        <div class="col-content">
+            <h1> GERMAN SHEPHERD </h1>
+            <p>This breed is known for its intelligence, loyalty, and versatility. German Shepherds are often used as
+                police and military dogs, as well as family pets and working dogs in fields like search and rescue and
+                therapy.</p>
+            <img src="img/german3.jpg" alt="">
+        </div>
+        </div>
+
+        <div class="col-content">
+            <h1> GOLDEN RETRIEVER </h1>
+            <p>This breed is known for its friendly and loyal personality, as well as its intelligence and athleticism.
+                Golden Retrievers make great family pets, as well as working dogs in fields like hunting and therapy.
+            </p>
+            <img src="img/golden5.jpg" alt="">
+        </div>
+
+        <div class="col-content">
+            <h1> BULLDOG </h1>
+            <p>This breed is known for its distinctive wrinkled face and calm, affectionate personality. Bulldogs make
+                great family pets and are adaptable to living in small spaces.</p>
+            <img src="img/bulldog4.jpg" alt="">
+        </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section id="contactus">
+        <div class="footer">
+            <div class="main1">
+                <div class="list">
+                    <h4> Contact Information </h4>
+                    <ul>
+                        <li><a href="#">Jericho Lintija</a></li>
+                        <li><a href="#">Darren Larios</a></li>
+                        <li><a href="#">Archie Lacsi</a></li>
+                        <li><a href="#">Eulice Mage Gonzales</a></li>
+                        <li><a href="#">Lawrence Lovedeoro</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="end-text">
+            <p>© BSIT-SD 1A, GROUP 6 Final Project.</p>
+        </div>
+    </section>
+    <script type="text/javascript" src="asdqwd.js"></script>
+</body>
+
+</html>
